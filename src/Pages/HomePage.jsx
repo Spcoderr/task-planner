@@ -34,8 +34,8 @@ const HomePage = () => {
             </div>
             
             <div className="cta-section">
-              <Link to="/projects" className="btn-primary">View Projects</Link>
-              {/* <Link to="/projects" className="btn-secondary">Create New Project</Link> */}
+              {/* <Link to="/projects" className="btn-primary">View Projects</Link> */}
+              <Link to="/projects" className="btn-secondary">Create New Project</Link>
             </div>
           </div>
           

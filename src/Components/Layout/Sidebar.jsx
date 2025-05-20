@@ -3,9 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const Sidebar = ({ activeProject = null }) => {
   return (
-    <aside className="bg-gray-100 w-64 h-full min-h-screen p-4 border-r border-gray-200">
+    <aside className=" w-64 h-full p-4 border-r border-gray-200">
       <div className="mb-6">
-        <h2 className="text-lg font-semibold text-gray-700 mb-4">Navigation</h2>
         <ul className="space-y-2">
           <li>
             <NavLink
