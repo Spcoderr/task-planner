@@ -1,0 +1,46 @@
+/* DependencySelect.css */
+.dependency-select-container {
+  margin-bottom: 15px;
+}
+
+.dependency-select-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.dependency-select-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.dependency-select-container select.has-warning {
+  border-color: #e67e22;
+  background-color: #fff9f0;
+}
+
+.task-dependency-info {
+  margin-top: 5px;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.dependency-warning {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #fff7e6;
+  border-left: 3px solid #e67e22;
+  color: #d35400;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.warning-icon {
+  font-size: 1.1rem;
+}
